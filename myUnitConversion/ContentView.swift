@@ -93,6 +93,7 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+// below is my way for the formula to work but it's bad bcs lots of if condition makes the code ugly
 //var inputM: Bool{ userUnitInput == "meters" }
 //var inputKM: Bool{ userUnitInput == "km" }
 //var inputFT: Bool{ userUnitInput == "feet" }

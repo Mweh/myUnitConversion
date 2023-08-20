@@ -64,7 +64,7 @@ struct ContentView: View {
                 }
                 
                 Section{
-                    Text(String(format: "%.2f", output)+" \(userUnitOutput)")
+                    Text(output.formatted()+" \(userUnitOutput)")
                     Picker("", selection: $userUnitOutput){
                         ForEach(lengthUnit, id: \.self){
                             Text($0)
